@@ -2,7 +2,7 @@
 Dealing with algorithms ...
 
 To know Execution time of a program , use **TIME** library 
- - For example:
+ - Here is the example :
 
     - start_time = time.time()
 
