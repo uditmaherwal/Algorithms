@@ -3,7 +3,7 @@ def insertionsort(array):
         insertion_index = loop_index
         while (
             insertion_index > 0
-            and array[insertion_index - 1] > arrayn_index]
+            and array[insertion_index - 1] > array[insertion_index]
         ):
             array[insertion_index], array[insertion_index - 1] = (
                 array[insertion_index - 1],
