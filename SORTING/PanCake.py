@@ -1,4 +1,4 @@
-def radixsort(array):
+def pancake(array):
     length = len(array)
     while length > 1:
         max_element_index = array.index(max(array[0:length]))
