@@ -7,7 +7,7 @@ def quicksort(array_of_elements):
     for element in array_of_elements:
         if element > pivot:
             greater.append(element)
-        else:
+        else: 
             lesser.append(element)
 
     return quicksort(lesser) + [pivot] + quicksort(greater)
